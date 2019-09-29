@@ -33,7 +33,7 @@
 
   <div class="field">
     <%= form.label :part_id %><br>
-    <%= form.collection_check_boxes(:part_ids, @parts, :id, :name) %>
+    <%= form.collection_select(:part_ids, @parts, :id, :name) %>
   </div>
 
   <div class="actions">
