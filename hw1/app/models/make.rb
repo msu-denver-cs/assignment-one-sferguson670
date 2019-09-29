@@ -1,3 +1,2 @@
-class Make < ActiveRecord::Base
-    has_many :cars
+class Make < ApplicationRecord
 end
